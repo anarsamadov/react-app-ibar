@@ -1,0 +1,14 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/font-awesome/css/font-awesome.min.css';
+
+$textColor: #000000;
+$backgroundColor: #FFFFFF;
+
+body {
+    background-color: $backgroundColor;
+    color:$textColor;
+}
+
+table > tbody > tr > td ,table > thead > tr > th {
+    white-space: nowrap;
+}
